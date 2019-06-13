@@ -16,7 +16,7 @@ una stringa rossa.-->
   //Variabile password in get
     $password = strtolower($_GET['password']);
     //Se la password è uguale a "boolean" allora è corretta(green)
-    if ($password = 'boolean') {
+    if ($password == 'boolean') {
       echo '<font color="green">La password inserita è corretta!</font>';
     //Altrimenti non è corretta(red)
     } else {
